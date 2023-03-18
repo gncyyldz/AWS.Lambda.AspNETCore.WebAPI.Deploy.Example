@@ -1,0 +1,12 @@
+{
+  "profile": "",
+  "region": "",
+  "configuration": "Release",
+  "function-runtime": "dotnet6",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "AWS.Lambda.AspNETCore.WebAPI.Deploy.Example",
+  "function-name": "AWSLambdaAspNETCoreWebAPIDeployExample",
+  "environment-variables": "ASPNETCORE_ENVIRONMENT=Development;",
+  "function-url-enable": true
+}
